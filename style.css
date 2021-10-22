@@ -80,7 +80,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    width: 100%;
 }
 .date{
     color:gray;
@@ -91,12 +91,18 @@ body{
     flex-direction:row;
     align-items:center;
 }
+.icon{
+    color: rgb(100, 100, 100);
+}
+.icon:hover{
+    cursor: pointer;
+}
+.likes{
+    color: red;
+}
 .like{
     background-color :rgb(74, 74, 255) ;
 }
 #tweets-container{
     width: 100%;
-}
-.iconHov:hover{
-    cursor: pointer;
 }
