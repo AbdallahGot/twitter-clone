@@ -91,3 +91,12 @@ body{
     flex-direction:row;
     align-items:center;
 }
+.like{
+    background-color :rgb(74, 74, 255) ;
+}
+#tweets-container{
+    width: 100%;
+}
+.iconHov:hover{
+    cursor: pointer;
+}
