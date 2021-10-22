@@ -38,10 +38,9 @@ function createTweet(tweet){
 }
 ///////////////////////////like function ///////////////////////////////////
 function like (index){
-    
-    let my = document.getElementById(index);
-    my.classList.toggle('likes');
-    my.parentElement.parentElement.parentElement.classList.toggle('like');
+    const myLike = document.getElementById(index);
+    myLike.classList.toggle('likes');
+    myLike.parentElement.parentElement.parentElement.classList.toggle('like');
 }
 ///////////////////////////ReeTweeet function///////////////////////////////
 function reTweet(index){
