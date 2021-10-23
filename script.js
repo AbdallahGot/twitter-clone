@@ -2,7 +2,7 @@ const myTweet = document.getElementById('myTweet');
 const tweetsContainer = document.getElementById('tweets-container');
 const userName = document.getElementById('userName');
 const tweetContent = document.getElementById('tweetContent');
-document.getElementById('submitBtn').addEventListener('click',newTweet);
+document.getElementById('tweetBtn').addEventListener('click',newTweet);
 let tweets = [];
 let tweet = {};
 ///////////////////////New Tweeeeet function/////////////////////////////////

@@ -10,29 +10,37 @@
 <body>
     <div class="leftNav">
         <ul>
-            <li><img src="./svg/twitter.svg"></li>
-            <li id="home"><img src="./svg/home.svg"> Home</li>
+            <li><img src="./svg/twitter.svg" class="active"></li>
+            <li id="home"><img src="./svg/home.svg" class="active"> Home</li>
             <li><img src="./svg/notifications.svg"> Notifications</li>
             <li><img src="./svg/profile.svg"> Profile</li>
             <li><img src="./svg/more.svg"> More</li>
         </ul>
     </div>
-    <!-- ///////////////////////////////////// -->
     <div class="tweets-container">
-        <h2 style="color: blue;">Home</h2><br>
+        <h2 style="color: #1CA1F4">Home</h2><br>
         <div class="tweet-start">
             <form>
                 <input id="userName" placeholder="user name here" type="text"><br>
                 <textarea id="tweetContent" cols="80" rows="10" placeholder="type your tweet here .."></textarea>
             </form>
-            <button id="submitBtn">Share</button>
+            <button id="tweetBtn">Tweet</button>
         </div>
         <div id="tweets-container">
         </div>
     </div>
-    <!-- ///////////////////////////////////// -->
     <div class="rightNav">
-
+        <input type="search" class="search" placeholder="Search">
+        <div class="trends">
+            <h3>Trends For You</h3>
+            <ul>
+                <li>#Alec Baldwin <span>237.1K Tweets</span></li>
+                <li>#Rashmi Rocket Soars<span>11.4K Tweets</span></li>
+                <li>#Vante<span>10.1K Tweets</span></li>
+                <li>#CHENOR<span>21K Tweets</span></li>
+                <li>#Watford<span>27.5K Tweets</span></li>
+            </ul>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
