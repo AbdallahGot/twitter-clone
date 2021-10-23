@@ -8,7 +8,7 @@ let tweet = {};
 ///////////////////////New Tweeeeet function/////////////////////////////////
 function newTweet() {
 if(userName.value.length<=250 && tweetContent.value.length<=250) {
-    let tweet = {id:tweets.length,userName:userName.value,tweetContent:tweetContent.value};
+    tweet = {id:tweets.length,userName:userName.value,tweetContent:tweetContent.value};
     createTweet(tweet);
     userName.value = "";
     tweetContent.value ="";
@@ -44,6 +44,6 @@ function like (index){
 }
 ///////////////////////////ReeTweeet function///////////////////////////////
 function reTweet(index){
-    let tweet = tweets[index];
+    tweet = tweets[index];
     createTweet(tweet);
     }
